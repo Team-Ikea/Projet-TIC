@@ -1,0 +1,282 @@
+body {
+  background: linear-gradient(to bottom, rgb(23, 57, 91), rgb(48, 15, 48));
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  text-align: center;
+}
+main.table {
+  table-layout: auto;
+  width: 65%;
+  backdrop-filter: blur(7px);
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.8rem;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table__header {
+  height: 10%;
+  background-color: #f7dc6f;
+  padding: 0.8rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table__header .input-group {
+  width: 35%;
+  height: 100%;
+  background-color: #d69813;
+  padding: 0 0.8rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.table__header .input-group:hover {
+  width: 45%;
+  background-color: #f7dc6fbd;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+.table__header .input-group img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.table__header .input-group input {
+  padding: 0 0.5rem 0 0.3rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.table__body {
+  width: 95%;
+  max-height: calc(89% - 1.6rem);
+  margin: 0.8rem auto;
+  border-radius: 0.6rem;
+  overflow: auto;
+  overflow: overlay;
+}
+
+.table__body::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.table__body::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  visibility: hidden;
+}
+
+.table__body:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  padding: 1rem;
+  text-align: left;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #6b00bd45;
+  cursor: pointer;
+  text-transform: capitalize;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+
+thead th:hover {
+  background-color: rgb(44, 8, 50);
+}
+
+thead th:hover span.icon-arrow {
+  border: 1.4px solid rgb(70, 23, 91);
+}
+tbody tr {
+  --delay: 0.1s;
+  transition: 0.5s ease-in-out var(--delay), background-color 0s;
+}
+
+tbody tr.hide {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+tbody tr:hover {
+  background-color: #155e6c;
+}
+.banner img {
+  width: 100%;
+  height: 250px;
+}
+.infos_etu {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 70%;
+}
+h1 {
+  color: rgb(253, 185, 58);
+}
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid rgba(181, 163, 28, 0.473);
+  padding: 5px;
+}
+tr {
+  color: whitesmoke;
+}
+th {
+  color: lightskyblue;
+}
+h2 {
+  color: whitesmoke;
+}
+.chap {
+  white-space: nowrap;
+  color: lightskyblue;
+}
+h3 {
+  color: rgb(253, 185, 58);
+  text-decoration: underline rgb(253, 185, 58);
+}
+p {
+  color: whitesmoke;
+}
+.termino {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+li {
+  color: whitesmoke;
+}
+.ty {
+  text-align: left;
+  margin-left: 550px;
+  margin-right: 550px;
+}
+.commu {
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 600px;
+}
+#sc1 {
+  width: 400px;
+  border-radius: 15px;
+  float: right;
+  margin-right: 150px;
+  margin-top: -240px;
+}
+.sec {
+  text-align: left;
+  margin-left: 150px;
+}
+.third {
+  float: right;
+  margin-right: 150px;
+  margin-top: -220px;
+  text-align: left;
+}
+.fivo {
+  text-align: left;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+.fivt {
+  float: left;
+  margin-left: 150px;
+  text-align: left;
+}
+.both {
+  margin-top: 120px;
+  margin-left: 150px;
+  text-align: left;
+}
+.sixth {
+  margin-left: 150px;
+  text-align: left;
+  margin-top: -30px;
+}
+#pp {
+  width: 400px;
+  float: right;
+  margin-right: 150px;
+  border-radius: 15px;
+  margin-top: -220px;
+}
+#topo {
+  float: right;
+  margin-right: 150px;
+  border-radius: 15px;
+  margin-top: -170px;
+  width: 380px;
+}
+#web {
+  width: 400px;
+  border-radius: 15px;
+}
+fieldset {
+  width: 40%;
+  height: 30px;
+  color: whitesmoke;
+  text-align: left;
+  float: right;
+  margin-right: 250px;
+  margin-top: -85px;
+  border-color: #d69813;
+}
+.contenue {
+  text-align: left;
+  margin-left: 250px;
+}
+.chap3 {
+  text-align: left;
+  margin-left: 150px;
+  margin: 150px;
+  margin-top: 50px;
+}
+.pb {
+  color: lightskyblue;
+  text-decoration: underline;
+}
+.git {
+  text-align: left;
+  margin-left: 250px;
+}
+b {
+  color: lightskyblue;
+}
+.TIC {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.comp {
+  text-align: left;
+  margin-left: 600px;
+}
